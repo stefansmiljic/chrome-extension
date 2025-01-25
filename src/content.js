@@ -1,0 +1,1 @@
+//TODO ova skripta ce zapravo da dodaje komentare i da ih cuva u localstorage, poziva se iz manifesta nakon sto je DOM gotov

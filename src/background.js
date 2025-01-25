@@ -1,0 +1,1 @@
+//TODO nisam siguran da nam ovo odmah treba, ali i ovo se poziva iz manifesta, ovde idu stvari koje se desavaju u pozadini dok popup recimo nije otvoren il kad interakcija sa ekstenzijom nije potrebna
