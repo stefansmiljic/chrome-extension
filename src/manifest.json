@@ -1,1 +1,25 @@
-//TODO ovo je configuration file za celu ekstenziju ime, verzija, dozvole, opisi i ostalo
+{
+   "manifest_version": 3,
+   "name": "Our extension :D",
+   "description": "Sample description",
+   "version": "1.0",
+   "action":{
+        "default_popup": "popup.html"
+   },
+   "host_permissions": [
+    "<all_urls>"
+   ],
+   "permissions": [
+    "storage"
+   ],
+   "content_scripts": [
+       {
+           "js": [
+            "content.js"
+           ],
+           "matches": [
+            "<all_urls>"
+           ]
+       }
+   ]
+}
