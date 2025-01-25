@@ -1,0 +1,10 @@
+#openDashboard {
+    border: 1px solid transparent;
+    border-radius: 25px;
+    background-color: #568ff4;
+    color: #ffffff;
+}
+#openDashboard:hover{
+    background-color: #2a50f8;
+    transition: 0.3s;
+}

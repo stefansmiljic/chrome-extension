@@ -1,1 +1,4 @@
-//TODO skripta za popup
+const button = document.querySelector("#openDashboard");
+button.onclick = ()=>{
+    window.open("dashboard.html");
+};
