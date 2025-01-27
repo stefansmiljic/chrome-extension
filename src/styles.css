@@ -1,10 +1,63 @@
-#openDashboard {
-    border: 1px solid transparent;
-    border-radius: 25px;
-    background-color: #568ff4;
-    color: #ffffff;
+:root {
+    --bg-color: #ffffff;
+    --text-color: #000000;
+    --button-bg: #568ff4;
+    --button-hover-bg: #2a50f8;
+    --button-text-color: #ffffff;
 }
-#openDashboard:hover{
-    background-color: #2a50f8;
+
+:root.dark-mode {
+    --bg-color: #1e1e1e;
+    --text-color: #ffffff;
+    --button-bg: #636363;
+    --button-hover-bg: #3b3b3b;
+    --button-text-color: #ffffff;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.openDashboardButton {
+    border: 1px solid transparent;
+    border-radius: 16px;
+    background-color: var(--button-bg);
+    color: var(--button-text-color);
+    width: 100px;
+    height: 50px;
+}
+
+.openDashboardButton:hover {
+    background-color: var(--button-hover-bg);
     transition: 0.3s;
+}
+
+.extensionHeader {
+    width: 200px; 
+    height: 100px;
+}
+
+.extensionContainer {
+    width: 200px;
+    height: 100px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid var(--text-color);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.buttonDiv {
+    margin: 0;
+    padding-top: 20px;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
 }
