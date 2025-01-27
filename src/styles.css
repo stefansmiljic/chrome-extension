@@ -14,12 +14,6 @@
     --button-text-color: #ffffff;
 }
 
-body {
-    background-color: var(--bg-color);
-    color: var(--text-color);
-    margin: 0;
-    font-family: Arial, sans-serif;
-}
 
 .openDashboardButton {
     border: 1px solid transparent;
@@ -35,22 +29,28 @@ body {
     transition: 0.3s;
 }
 
+.popupBody {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
 .extensionHeader {
     width: 200px; 
     height: 100px;
 }
 
 .extensionContainer {
-    width: 200px;
-    height: 100px;
+    width: 100%;
+    height: 100%;
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     border: 1px solid var(--text-color);
-    border-radius: 10px;
-    padding: 10px;
+    
 }
 
 .buttonDiv {
